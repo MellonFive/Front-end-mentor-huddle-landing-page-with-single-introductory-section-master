@@ -58,6 +58,8 @@ main {
   color: var(--Violet);
 
   transition: .3s ease-in-out;
+
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.80);
 }
 
 .container > .about > .btn:hover {
