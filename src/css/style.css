@@ -1,0 +1,70 @@
+body {
+  font-family: "Open Sans", sans-serif;
+
+  background-color: var(--Violet); 
+  background-image: url(../images/bg-desktop.svg); 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+main {
+  margin: 6rem auto 0;
+  max-width: 150rem;
+}
+
+main > .container {
+  display: flex;
+  gap: 5rem;
+  
+  margin: 6rem auto 0;
+}
+
+main > .container > .illustration > .image-illustration {
+  width: 80rem;
+}
+
+main > .container > .about {  
+  font-family: "Poppins", sans-serif;
+}
+
+main > .container > .about > .title {
+  font-size: 5rem;
+  
+  color: #FFF;
+  
+  margin-top: 8rem;
+}
+
+main > .container > .about > .description {
+  margin-top: 3rem;
+
+  width: 57rem;
+
+  color: #FFF;
+
+  font-size: 1.8rem;
+}
+
+main > .container > .about > .btn {
+  display: inline-block;
+
+  margin-top: 4rem;
+  padding: 1.5rem 7rem;
+
+  background-color: #FFF;
+
+  border-radius: 4rem;
+  border: 1px solid #FFF;
+
+  color: var(--Violet);
+
+  /* transition: .5s ease-in-out; */
+}
+
+/* main > .container > .about > .btn:hover {
+  background-color: var(--Violet);
+
+  border: 1px solid #FFF;
+
+  color: #FFF;
+} */
