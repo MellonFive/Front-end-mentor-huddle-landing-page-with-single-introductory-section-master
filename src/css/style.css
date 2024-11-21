@@ -10,22 +10,22 @@ main {
   max-width: 150rem;
 }
 
-main > .container {
+.container {
   display: flex;
   gap: 5rem;
   
   margin: 6rem auto 0;
 }
 
-main > .container > .illustration > .image-illustration {
+.container > .illustration > .image-illustration {
   width: 80rem;
 }
 
-main > .container > .about {  
+.container > .about {  
   font-family: "Poppins", sans-serif;
 }
 
-main > .container > .about > .title {
+.container > .about > .title {
   font-size: 5rem;
   
   color: #FFF;
@@ -33,7 +33,7 @@ main > .container > .about > .title {
   margin-top: 8rem;
 }
 
-main > .container > .about > .description {
+.container > .about > .description {
   margin-top: 3rem;
 
   width: 57rem;
@@ -43,7 +43,7 @@ main > .container > .about > .description {
   font-size: 1.8rem;
 }
 
-main > .container > .about > .btn {
+.container > .about > .btn {
   display: inline-block;
 
   margin-top: 4rem;
@@ -59,7 +59,7 @@ main > .container > .about > .btn {
   /* transition: .5s ease-in-out; */
 }
 
-/* main > .container > .about > .btn:hover {
+/* .container > .about > .btn:hover {
   background-color: var(--Violet);
 
   border: 1px solid #FFF;
