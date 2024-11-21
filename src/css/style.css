@@ -49,20 +49,21 @@ main {
   margin-top: 2.5rem;
   padding: 1.5rem 7rem;
 
+  font-size: 1.8rem;
+
   background-color: #FFF;
 
   border-radius: 4rem;
-  border: 1px solid #FFF;
 
   color: var(--Violet);
 
-  /* transition: .5s ease-in-out; */
+  transition: .3s ease-in-out;
 }
 
-/* .container > .about > .btn:hover {
-  background-color: var(--Violet);
+.container > .about > .btn:hover {
+  background-color: var(--Soft-Magenta);
 
-  border: 1px solid #FFF;
+  border: none;
 
   color: #FFF;
-} */
+}
