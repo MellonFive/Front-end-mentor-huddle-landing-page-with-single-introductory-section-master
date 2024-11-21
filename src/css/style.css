@@ -12,7 +12,7 @@ main {
 
 .container {
   display: flex;
-  gap: 5rem;
+  gap: 7rem;
   
   margin: 6rem auto 0;
 }
@@ -34,7 +34,7 @@ main {
 }
 
 .container > .about > .description {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 
   width: 57rem;
 
@@ -46,7 +46,7 @@ main {
 .container > .about > .btn {
   display: inline-block;
 
-  margin-top: 4rem;
+  margin-top: 2.5rem;
   padding: 1.5rem 7rem;
 
   background-color: #FFF;
