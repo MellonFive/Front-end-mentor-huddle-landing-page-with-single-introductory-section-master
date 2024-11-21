@@ -59,7 +59,7 @@ main {
 
   transition: .3s ease-in-out;
 
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.80);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.70);
 }
 
 .container > .about > .btn:hover {
@@ -68,4 +68,20 @@ main {
   border: none;
 
   color: #FFF;
+}
+
+footer {
+  width: 100%;
+}
+
+footer > .social-media {
+  display: flex;
+  gap: 4rem;
+  justify-content: flex-end;
+
+  margin-right: 6rem;
+}
+
+footer > .social-media > .logo {
+  width: 5rem;
 }
