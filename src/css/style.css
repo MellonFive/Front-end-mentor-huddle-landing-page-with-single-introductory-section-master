@@ -23,6 +23,7 @@ main {
 
 .container > .about {  
   font-family: "Poppins", sans-serif;
+
   display: flex;
   flex-direction: column;
 }
@@ -79,15 +80,17 @@ main {
 .container > .about > .social-media {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
+  height: 25vh;
+  gap: 2rem;
 
-  width: 100%;
+  width: 90%;
 }
 
 .container > .about > .social-media > .list {
-  
   width: 4rem;
 }
 
 .container > .about > .social-media > .list > .link {
+  display: flex;
 }
