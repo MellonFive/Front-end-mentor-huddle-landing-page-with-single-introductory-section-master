@@ -23,6 +23,8 @@ main {
 
 .container > .about {  
   font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .container > .about > .title {
@@ -44,7 +46,7 @@ main {
 }
 
 .container > .about > .btn {
-  display: inline-block;
+  width: 22rem;
 
   margin-top: 2.5rem;
   padding: 1.5rem 7rem;
@@ -74,3 +76,18 @@ main {
   box-shadow: 0 0 0 #000;
 }
 
+.container > .about > .social-media {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  width: 100%;
+}
+
+.container > .about > .social-media > .list {
+  
+  width: 4rem;
+}
+
+.container > .about > .social-media > .list > .link {
+}
