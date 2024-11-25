@@ -96,3 +96,12 @@ main {
 .container > .about > .social-media > .list {
   width: 4.5rem;
 }
+
+.container > .about > .social-media > .list > .link > img {
+  transition: .2s ease-in-out;
+}
+
+.container > .about > .social-media > .list > .link:hover > img {
+  transform: scale(2) rotate(360deg);
+  
+}
