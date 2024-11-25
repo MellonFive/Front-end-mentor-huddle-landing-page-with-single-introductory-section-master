@@ -33,7 +33,7 @@ main {
   
   color: #FFF;
   
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
 .container > .about > .description {
@@ -62,7 +62,7 @@ main {
 
   transition: .2s ease-in-out;
 
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.70);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.50);
 }
 
 .container > .about > .btn:hover {
