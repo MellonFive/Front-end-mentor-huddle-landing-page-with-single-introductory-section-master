@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  margin: 10rem auto 0;
+  margin: 8rem auto 0;
   max-width: 150rem;
 }
 
@@ -49,7 +49,7 @@ main {
 .container > .about > .btn {
   width: 22rem;
 
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   padding: 1.5rem 7rem;
 
   font-size: 1.8rem;
@@ -60,7 +60,7 @@ main {
 
   color: var(--Violet);
 
-  transition: .2s ease-in-out;
+  transition: .1s ease-in-out;
 
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.50);
 }
@@ -75,6 +75,10 @@ main {
 
 .container > .about > .btn:active {
   box-shadow: 0 0 0 #000;
+
+  background-color: #FFF;
+
+  color: var(--Soft-Magenta);
 }
 
 .container > .about > .social-media {
@@ -86,6 +90,7 @@ main {
 
   width: 90%;
 
+  margin-top: 3rem;
 }
 
 .container > .about > .social-media > .list {
