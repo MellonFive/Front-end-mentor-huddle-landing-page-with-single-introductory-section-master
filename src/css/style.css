@@ -12,7 +12,7 @@ main {
 
 .container {
   display: flex;
-  gap: 7rem;
+  gap: 10rem;
   
   margin: 6rem auto 0;
 }
