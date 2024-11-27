@@ -102,5 +102,5 @@ main {
 }
 
 .container > .about > .social-media > .list > .link:hover > img {
-  transform: scale(2) rotate(360deg);
+  transform: scale(1.8);
 }
