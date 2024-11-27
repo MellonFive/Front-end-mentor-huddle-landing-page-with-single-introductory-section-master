@@ -89,16 +89,11 @@ main {
   gap: 3rem;
 
   width: 90%;
-
-  margin-top: 3rem;
-}
-
-.container > .about > .social-media > .list {
-  width: 4.5rem;
 }
 
 .container > .about > .social-media > .list > .link > img {
   transition: .2s ease-in-out;
+  width: 4rem;
 }
 
 .container > .about > .social-media > .list > .link:hover > img {
