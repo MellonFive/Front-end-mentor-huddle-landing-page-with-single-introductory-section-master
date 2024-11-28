@@ -1,6 +1,6 @@
   /* Fazer resolução para a tela do meu notebook */
 
-@media (max-width: 375px) {
+@media (max-width: 576px) {
   body {
     background: var(--Violet) url(../images/bg-mobile.svg) no-repeat;
   }
