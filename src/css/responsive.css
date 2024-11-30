@@ -1,19 +1,23 @@
-  /* Fazer resolução para a tela do meu notebook max-width: 1024px 
+  /* Fazer resolução para a tela do meu notebook max-width: 1024px */
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
+  html, body {
+    overflow-y: hidden;
+  }
+
   body {
-    background: var(--Violet) url(../images/bg-mobile.svg) no-repeat;
+    background: var(--Violet) url(../images/bg-desktop.svg) no-repeat;
+    background-size: cover;  
   }
 
   main {
     width: 100%;
-    max-width: 1000px;
-
-    margin-top: 2rem;
+    max-width: 1024px;
+    height: 100vh;
   }
 
   main > .image-logo {
-    width: 20rem;
+    width: 25rem;
   }
 
   .container {
@@ -54,11 +58,11 @@
     width: 100%;
   }
 }
-*/
 
 @media (max-width: 576px) {
   body {
-    background: var(--Violet) url(../images/bg-mobile.svg) no-repeat;
+    background: var(--Violet) url(../images/bg-desktop.svg) no-repeat;
+    background-size: cover;  
   }
 
   main {
@@ -116,6 +120,5 @@
 
     align-items: flex-start;
     justify-content: center;
-
   }
 }
