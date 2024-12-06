@@ -1,6 +1,6 @@
   /* Fazer resolução para a tela do meu notebook max-width: 1024px */
 
-  @media (max-width: 576px) {
+  @media (min-width: 375px) and (max-width: 640px) {
     body {
       background: var(--Violet) url(../images/bg-desktop.svg) no-repeat;
       background-size: cover;  
@@ -64,7 +64,7 @@
     }
 }
 
-@media (min-width: 577px) and (max-width: 1440px) {
+@media (min-width: 641px) and (max-width: 1440px) {
   html, body {
     overflow-y: hidden;
   }
